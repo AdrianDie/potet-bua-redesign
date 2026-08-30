@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potetbua – Norges mest omtalte bakte potet</title>
+<meta name="description" content="Potetbua serverer bakt potet med hjemmelaget kryddersmør og hvitløksdressing fra 11 rullende buer i Holmestrand, Drammen, Sandefjord, Moss, Horten, Larvik, Tønsberg, Lillehammer, Tollerud og Hamar.">
+<meta name="theme-color" content="#1a1c53">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link"><img src="assets/logo.webp" alt="Potetbua – Ta gjerne fire, ta åtte, ta alle!"></a>
+    <div class="nav-scrim"></div>
+    <nav class="main-nav" aria-label="Hovedmeny">
+      <button class="menu-close" aria-label="Lukk meny">&times;</button>
+      <a href="index.html" class="nav-mobile-only">Hjem</a>
+      <a href="#om-oss">Om oss</a>
+      <a href="#avdelinger">Avdelinger</a>
+      <a href="#arrangementer">Arrangementer</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#ledige-stillinger">Ledige stillinger</a>
+      <div class="nav-has-children">
+        <a href="#meny" class="naviLeft">Meny</a>
+        <div class="nav-dropdown">
+          <a href="meny/tollerud-e18.html">Tollerud E18</a>
+        </div>
+      </div>
+      <a href="personvern.html" class="nav-mobile-only">Personvern</a>
+      <a href="#kontakt" class="btn btn-gold btn-sm nav-cta">Bestill mat</a>
+    </nav>
+    <button class="hamburger" aria-label="Åpne meny" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="hjem">
+    <div class="container hero-content reveal">
+      <span class="eyebrow" style="color:var(--gold)">Potetbua</span>
+      <h1>Norges mest omtalte bakte potet</h1>
+      <p>Glem kjedelig gatemat. Potetbua serverer skikkelig bakt potet med masse snadder. En potet holder lenge, men ta gjerne fire, ta åtte, ta alle!</p>
+      <div class="hero-actions">
+        <a href="#meny" class="btn btn-gold">Se meny</a>
+        <a href="#avdelinger" class="btn btn-outline-gold" style="color:#fff;border-color:#fff;">Se åpningstider</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container features">
+      <div class="feature-card reveal">
+        <div class="feature-icon"><img src="assets/icon-potato.webp" alt=""></div>
+        <h3>Egenkomponert hvitløksdressing og kryddersmør</h3>
+        <p>Og den er ikke beskjeden.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><img src="assets/icon-potato.webp" alt=""></div>
+        <h3>Sprøtt skall, myk kjerne</h3>
+        <p>Akkurat slik en bakt potet skal være.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><img src="assets/icon-potato.webp" alt=""></div>
+        <h3>Rullende matglede</h3>
+        <p>Enkelt, mettende, digg.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white" id="avdelinger">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Avdelinger</span>
+        <h2>11 buer, alltid i nærheten</h2>
+        <p>Åpningstidene under er hentet direkte fra hver avdeling, og statusmerket regner seg selv ut fra klokka akkurat nå.</p>
+      </div>
+
+      <div class="dept-grid">
+
+        <article class="dept-card reveal" id="holmestrand">
+          <div class="dept-card-top">
+            <div><h3>Holmestrand</h3><p class="dept-address">Havnegaten, 3080 Holmestrand</p></div>
+            <span class="status-pill" data-dept="holmestrand">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2"><span>Tirsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="3"><span>Onsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="4"><span>Torsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="5"><span>Fredag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="6"><span>Lørdag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="7"><span>Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/phi4/potetbua-holmestrand" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="drammen-bragernes">
+          <div class="dept-card-top">
+            <div><h3>Drammen, Bragernes Torg</h3><p class="dept-address">Bragernes Torg, Drammen</p></div>
+            <span class="status-pill" data-dept="drammen-bragernes">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1,2,3,4"><span>Mandag–Torsdag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="5"><span>Fredag</span><span>22:00–04:00</span></div>
+            <div class="hour-row" data-day="6"><span>Lørdag</span><span>22:00–04:00</span></div>
+            <div class="hour-row" data-day="7"><span>Søndag</span><span>Stengt</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://wolt.com/nb/nor/drammen/brand/potetbua-as" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="drammen-cc">
+          <div class="dept-card-top">
+            <div><h3>Drammen, CC Senteret</h3><p class="dept-address">Tomtegata 36, 3012 Drammen</p></div>
+            <span class="status-pill" data-dept="drammen-cc">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2,3,4,5,6,7"><span>Tirsdag–Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/d8kd/potetbua-drammen" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/nb/nor/drammen/restaurant/potetbua-cc-drammen" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="sandefjord">
+          <div class="dept-card-top">
+            <div><h3>Sandefjord</h3><p class="dept-address">Tivolitomta, Sandefjord sentrum</p></div>
+            <span class="status-pill" data-dept="sandefjord">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1,2,3,4"><span>Mandag–Torsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="5"><span>Fredag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="6"><span>Lørdag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="7"><span>Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/pca7/potetbua-sandefjord" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/en/nor/sandefjord/restaurant/potetbua-sandefjord" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="moss">
+          <div class="dept-card-top">
+            <div><h3>Moss</h3><p class="dept-address">Dronningens gate 19, 1530 Moss</p></div>
+            <span class="status-pill" data-dept="moss">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2,3,4,5,6,7"><span>Tirsdag–Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/iwgl/potetbua-moss" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/nb/nor/moss/restaurant/potetbua-moss" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="horten">
+          <div class="dept-card-top">
+            <div><h3>Horten</h3><p class="dept-address">Moloveien 1A, 3187 Horten</p></div>
+            <span class="status-pill" data-dept="horten">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2,3,4,5,6,7"><span>Tirsdag–Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/rrfb/potetbua-horten" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/nb/nor/horten/restaurant/potetbua-horten" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="larvik">
+          <div class="dept-card-top">
+            <div><h3>Larvik</h3><p class="dept-address">Yttersøveien 2, 3274 Larvik</p></div>
+            <span class="status-pill" data-dept="larvik">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2,3,4,5,6,7"><span>Tirsdag–Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/jv0s/potetbua-larvik" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/nb/nor/larvik/restaurant/potetbua-larvik" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="tonsberg">
+          <div class="dept-card-top">
+            <div><h3>Tønsberg</h3><p class="dept-address">Farmannstorvet, Tønsberg</p></div>
+            <span class="status-pill" data-dept="tonsberg">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1"><span>Mandag</span><span>Stengt</span></div>
+            <div class="hour-row" data-day="2,3,4,5,6,7"><span>Tirsdag–Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/a9x8/potetbua-tonsberg" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/en/nor/tonsberg/brand/potetbua-as" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="lillehammer">
+          <div class="dept-card-top">
+            <div><h3>Lillehammer</h3><p class="dept-address">Strandpromenaden 85, 2609 Lillehammer</p></div>
+            <span class="status-pill" data-dept="lillehammer">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1,2,3,4,5,6,7"><span>Mandag–Søndag</span><span>11:00–20:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/n74l/potetbua-lillehammer" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/nb/nor/lillehammer/restaurant/potetbua-lillehammer" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="tollerud">
+          <div class="dept-card-top">
+            <div><h3>Tollerud E18</h3><p class="dept-address">Tollerudgrillen, nordgående E18 – Tollerud 1, 3073 Sande i Vestfold</p></div>
+            <span class="status-pill" data-dept="tollerud">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1,2,3,4"><span>Mandag–Torsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="5,6,7"><span>Fredag–Søndag</span><span>11:00–22:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="meny/tollerud-e18.html">Se egen meny for Tollerud</a>
+          </div>
+        </article>
+
+        <article class="dept-card reveal" id="hamar">
+          <div class="dept-card-top">
+            <div><h3>Hamar</h3><p class="dept-address">CC Hamar, Vangsvegen 62, 2317 Hamar</p></div>
+            <span class="status-pill" data-dept="hamar">Laster …</span>
+          </div>
+          <div class="dept-hours">
+            <div class="hour-row" data-day="1,2,3,4"><span>Mandag–Torsdag</span><span>11:00–21:00</span></div>
+            <div class="hour-row" data-day="5"><span>Fredag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="6"><span>Lørdag</span><span>11:00–03:30</span></div>
+            <div class="hour-row" data-day="7"><span>Søndag</span><span>11:00–21:00</span></div>
+          </div>
+          <div class="dept-order">
+            <a class="order-btn" href="https://www.foodora.no/restaurant/dkja/potetbua-hamar" target="_blank" rel="noopener"><img src="assets/logo-foodora.webp" alt="">Foodora</a>
+            <a class="order-btn" href="https://wolt.com/en/nor/hamar/restaurant/potetbua-hamar" target="_blank" rel="noopener"><img src="assets/logo-wolt.svg" alt="">Wolt</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream" id="meny">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Meny</span>
+        <h2>Bakt potet for enhver smak</h2>
+        <p>Uansett om du vil ha bakt potet med kylling, bacon eller skinke, eller alt sammen samtidig: utforsk menyen og bestill via Foodora eller Wolt, eller stikk innom en av buene.</p>
+      </div>
+
+      <div class="menu-note reveal"><strong>NB!</strong> Alle potetene serveres standard med hjemmelaget kryddersmør, ost, mais og hjemmelaget hvitløksdressing.</div>
+
+      <div class="menu-grid reveal">
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med skinke</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">129,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med bacon</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">149,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med kylling</div><div class="menu-item-allergens">Allergener: egg, melk, selleri, soya</div></div><div class="menu-item-price">185,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med skinke og bacon</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">165,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Imsern spesial <small>(ekstra mye skinke, bacon og dressing)</small></div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">195,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med kylling og bacon</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">195,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Bakt potet med kylling og skinke</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">195,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Vegetar</div><div class="menu-item-allergens">Allergener: egg, melk, selleri</div></div><div class="menu-item-price">110,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Trekanten <small>(skinke, bacon og kylling)</small></div><div class="menu-item-allergens">Allergener: egg, melk, selleri, soya</div></div><div class="menu-item-price">215,-</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Brus</div></div><div class="menu-item-price">49,-</div></div>
+      </div>
+
+      <div class="menu-extras reveal">
+        <h3>Ekstra tilbehør</h3>
+        <ul class="extras-list">
+          <li>Ekstra ost <span>20,-</span></li>
+          <li>Ekstra dressing <span>20,-</span></li>
+          <li>Ekstra smør <span>15,-</span></li>
+          <li>Ekstra kjøtt (per type) <span>35,-</span></li>
+          <li>Ekstra mais <span>10,-</span></li>
+        </ul>
+      </div>
+
+      <a class="menu-sub-link reveal" href="meny/tollerud-e18.html">Se egen meny for avdeling Tollerud E18 →</a>
+    </div>
+  </section>
+
+  <section class="section section--navy" id="arrangementer">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Arrangementer</span>
+        <h2>Potetbua på farten i 2026</h2>
+        <p>Følg oss på pop-up, festival og marked. Se hvor bua ruller neste gang.</p>
+      </div>
+      <div class="events-list reveal">
+        <div class="event-row"><span class="event-name">Pop-up Vormsund</span><span class="event-date">25.08 – 28.08.26</span></div>
+        <div class="event-row"><span class="event-name">Vestfossenmarken</span><span class="event-date">28.08 – 30.08.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Grisen Storsenter</span><span class="event-date">01.09 – 04.09.26</span></div>
+        <div class="event-row"><span class="event-name">Potetfestivalen Gran</span><span class="event-date">10.09 – 11.09.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Seljord Dyrskun</span><span class="event-date">11.09 – 13.09.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Rortunet Slemmestad</span><span class="event-date">14.09 – 18.09.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Revetal</span><span class="event-date">15.09 – 17.09.26</span></div>
+        <div class="event-row"><span class="event-name">Bruktmarked Ekeberg</span><span class="event-date">18.09 – 19.09.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up</span><span class="event-date">26.09.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Bjørneparken</span><span class="event-date">28.09 – 03.10.26</span></div>
+        <div class="event-row"><span class="event-name">Pop-up Kløfta (KB-senteret)</span><span class="event-date">06.10 – 10.10.26</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white" id="om-oss">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="eyebrow">Hvem er vi?</span>
+        <h2>Siden 2015 har Potetbua servert klassisk bakt potet</h2>
+        <p>I dag har vi 11 rullende potetbuer rundt i landet. Vi gjør også eventer, både store og små. Porsjonene våre er rause og servicen er rask. Enkelt, mettende og digg!</p>
+        <div class="about-stats">
+          <div class="about-stat"><b>2015</b><span>Året vi startet</span></div>
+          <div class="about-stat"><b>11</b><span>Rullende buer</span></div>
+          <div class="about-stat"><b>10+</b><span>Pop-ups og festivaler i 2026</span></div>
+        </div>
+      </div>
+      <div class="about-gallery reveal">
+        <a href="https://www.instagram.com/potetbuaaholmestrand/" target="_blank" rel="noopener"><img src="assets/gallery-evening.webp" alt="Potetbua-bua opplyst på kveldstid med kunder i kø"></a>
+        <a href="https://www.instagram.com/potetbuaaholmestrand/" target="_blank" rel="noopener"><img src="assets/gallery-team.webp" alt="Smilende medarbeider som klargjør topping på kjøkkenet"></a>
+        <a href="https://www.instagram.com/potetbuaaholmestrand/" target="_blank" rel="noopener"><img src="assets/gallery-3.webp" alt="Bakt potet med masse topping"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream" id="omtaler">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Dette sier kundene</span>
+        <h2>Anmeldelser fra ekte gjester</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Anbefales</h4>
+          <p>Veldig god mat, ble veldig mett. Trekanten er en favoritt, anbefaler å spise der.</p>
+          <div class="testi-meta">Noah · 08.05.2025</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Mye mat for pengene</h4>
+          <p>Fikk en potet på størrelse med en vannmelon. Enorme porsjoner med mye topping. Syklet hjem og sov i tre timer etter maten, som forøvrig smakte helt nydelig! Kjøpte Imsern spesial. Nok mat til to voksne.</p>
+          <div class="testi-meta">Homayoun Maghsoudi · 22.04.2025</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Veldig godt</h4>
+          <p>Veldig god potetmiddag med masse godt tilbehør!</p>
+          <div class="testi-meta">Bente Kjeldstad · 23.04.2025</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Fantastisk god potet</h4>
+          <p>Fantastisk god potet med en super tasty hvitløksdressing. Anbefales på det sterkeste.</p>
+          <div class="testi-meta">Charlotte Qvale-Hammer · 03.05.2025</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Smakte himmelsk</h4>
+          <p>Selv om vi kjørte i 3 timer fra Sverige og sto halvannen time i kø, så gjør vi det gjerne igjen. Poteten og tilbehøret smakte himmelsk, og det var god stemning i køen.</p>
+          <div class="testi-meta">Hallgeir Fonstad · 03.02.2025</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <h4>Stor porsjon og godt</h4>
+          <p>Stor porsjon og godt, men ikke noe wow. Litt tam i smaken, men ellers godt. Kunne vært litt mindre porsjon og billigere.</p>
+          <div class="testi-meta">Rune Olafsen · 03.04.2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white" id="ledige-stillinger">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Ledige stillinger</span>
+        <h2>Bli med på laget</h2>
+        <p>Dette er stillingene vi søker etter akkurat nå. Send søknad og CV på e-post, merket med stillingen du søker på.</p>
+      </div>
+
+      <div class="job-list reveal">
+
+        <details class="job-item">
+          <summary>Medarbeider Lillehammer <span class="plus">+</span></summary>
+          <div class="job-body">Vi ser etter nye folk til å bli med på teamet vårt på vår splitter nye lokasjon i Lillehammer!
+
+Liker du å lage mat, jobbe med kunder og trives i et gøyalt arbeidsmiljø med høyt tempo, da vil vi gjerne høre fra deg. Erfaring med mat er et pluss, men ikke et krav; vi gir full opplæring. Det viktigste er at du har en god innstilling.
+
+Vi har både dag- og kveldsvakter tilgjengelig. Vi tilbyr konkurransedyktig timelønn og en morsom og spennende arbeidsplass.
+
+Send CV og referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Medarbeider Lillehammer">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Avdelingsleder Lillehammer <span class="plus">+</span></summary>
+          <div class="job-body">Vi ser etter en avdelingsleder til vår nyeste lokasjon i Lillehammer!
+
+Har du erfaring fra fastfood, restaurant eller bar, og har lyst til å lede et lite team i et morsomt arbeidsmiljø med høyt tempo, da er det deg vi ser etter! Du vil ha ansvar for den daglige driften av avdelingen: at rutiner, både interne og eksterne, blir fulgt, og at lokalet til enhver tid er bemannet, godt utstyrt og klart for drift.
+
+Den rette personen er en leder, ikke en sjef. Rolig når det er hektisk. Strukturert og organisert. Ryddig, ren og presentabel. Fleksibel og kan jobbe dag, kveld, helger og helligdager ved behov. God kjennskap til gode rutiner for mathygiene.
+
+Kunnskap om enkel økonomi og KPI-er er en fordel, men ikke et krav; full opplæring vil bli gitt etter hvert som rollen utvikler seg. Vi tilbyr en konkurransedyktig startlønn per time, samt et månedlig bidrag til telefonregningen din.
+
+Send CV og minst én nyere referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Avdelingsleder Lillehammer">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Avdelingsleder Moss <span class="plus">+</span></summary>
+          <div class="job-body">Vi ser etter en avdelingsleder 80–100 % på vår avdeling i Moss!
+
+Har du erfaring fra fastfood, restaurant eller bar, og har lyst til å lede et lite team i et morsomt arbeidsmiljø med høyt tempo, da er det deg vi ser etter! Du vil ha ansvar for den daglige driften av avdelingen: at rutiner, både interne og eksterne, blir fulgt, og at lokalet til enhver tid er bemannet, godt utstyrt og klart for drift.
+
+Den rette personen er en leder, ikke en sjef. Rolig når det er hektisk. Strukturert og organisert. Ryddig, ren og presentabel. Fleksibel og kan jobbe dag, kveld, helger og helligdager ved behov. God kjennskap til gode rutiner for mathygiene.
+
+Kunnskap om enkel økonomi og KPI-er er en fordel, men ikke et krav; full opplæring vil bli gitt etter hvert som rollen utvikler seg. Vi tilbyr en konkurransedyktig startlønn per time, samt et månedlig bidrag til telefonregningen din.
+
+Send CV og minst én nyere referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Avdelingsleder Moss">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Medarbeider Moss <span class="plus">+</span></summary>
+          <div class="job-body">Deltidsstilling: 50–80 %. Potetbua vokser, og vi trenger flere potethelter som kan ta i ett tak.
+
+Hvor? Moss, Østfold. Du må være over 16 år. Ønskelig med erfaring fra fastfood-bransjen.
+Når? Dagtid, kveld og helg, fleksibelt.
+
+Hva gjør du? Serverer digg mat, gir topp kundeservice, holder orden og tempo oppe.
+Hvem er du? Fleksibel og pålitelig, liker folk og fart, trives med varierte dager.
+Hva får du? God lønn og gode betingelser, et skikkelig bra arbeidsmiljø.
+
+Send CV og referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Medarbeider Moss">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Medarbeider Drammen Bragernes (natt) <span class="plus">+</span></summary>
+          <div class="job-body">Potetbua Drammen Bragernes søker nattarbeidere! Vi ser etter 2 personer som vil jobbe natt hos oss på Potetbua i Drammen (Bragernes).
+
+Stilling: nattarbeid, annenhver helg, oppstart på kort varsel.
+
+Vi ser etter deg som er over 20 år, trives med høyt tempo, er pålitelig og ansvarsfull, og liker å jobbe selvstendig.
+
+Vi tilbyr et sosialt og energisk arbeidsmiljø, konkurransedyktige betingelser og mulighet for mer jobb ved behov.
+
+Send CV og referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Medarbeider Drammen Bragernes (natt)">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Medarbeider Tønsberg <span class="plus">+</span></summary>
+          <div class="job-body">Vi søker etter 2 deltidsansatte. Deltidsstilling: 50–80 %. Potetbua vokser, og vi trenger flere potethelter som kan ta i ett tak!
+
+Hvor? Tønsberg, Vestfold. Du må være over 16 år. Ønskelig med erfaring fra fastfood-bransjen.
+Når? Kveld og helg, fleksibelt.
+
+Hva gjør du? Serverer digg mat, gir topp kundeservice, holder orden og tempo oppe.
+Hvem er du? Fleksibel og pålitelig, liker folk og fart, trives med varierte dager.
+Hva får du? God lønn og gode betingelser, et skikkelig bra arbeidsmiljø.
+
+Send CV og referanse til <a href="mailto:post@potetbua24.no?subject=Søknad: Medarbeider Tønsberg">post@potetbua24.no</a>, så tar vi kontakt.</div>
+        </details>
+
+        <details class="job-item">
+          <summary>Medarbeider Hamar <span class="plus">+</span></summary>
+          <div class="job-body">Mer informasjon kommer. Ønsker du å jobbe hos Potetbua Hamar, send gjerne en interessemelding til <a href="mailto:post@potetbua24.no?subject=Interessemelding: Medarbeider Hamar">post@potetbua24.no</a> i mellomtiden.</div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream" id="kontakt">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Kontakt</span>
+        <h2>Ris, ros, eller booking til ditt event?</h2>
+        <p style="color:var(--muted);margin-top:16px;">Ta kontakt! Vi ønsker stadig å utvide til nye lokasjoner. Har du tips om en bra lokasjon, eller ønsker du å være en franchise-taker? Send oss en mail.</p>
+
+        <div class="contact-note" style="margin-top:24px;">
+          <strong>NB:</strong> Vi tar kun bestillinger direkte i buene eller via Foodora/Wolt, ikke via mail eller telefon.
+        </div>
+
+        <div class="social-row">
+          <a href="https://www.facebook.com/Potetbua" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94Z"/></svg></a>
+          <a href="https://www.instagram.com/potetbuaaholmestrand/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="https://www.tiktok.com/@potetmannen98" target="_blank" rel="noopener" aria-label="TikTok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-.86-.94-1.34-2.17-1.34-3.44h-3.06v13.44c0 1.5-1.22 2.72-2.72 2.72a2.72 2.72 0 0 1 0-5.44c.28 0 .55.04.8.12V10.1a5.78 5.78 0 0 0-.8-.06 5.78 5.78 0 1 0 5.78 5.78V9.4a7.15 7.15 0 0 0 4.24 1.37V7.7c-1.06 0-2.05-.32-2.9-.88Z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="contact-card reveal">
+        <div class="contact-row">
+          <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg></span>
+          <a href="mailto:post@potetbua24.no">post@potetbua24.no</a>
+        </div>
+        <div class="contact-row">
+          <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+          <span style="color:#fff;">11 buer fra Holmestrand til Hamar</span>
+        </div>
+        <a href="mailto:post@potetbua24.no" class="btn btn-gold btn-block" style="margin-top:24px;">Send oss en e-post</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="assets/logo.webp" alt="Potetbua">
+        <p>Norges mest omtalte bakte potet. Siden 2015, fra 11 rullende buer i Øst- og Sørøst-Norge.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Snarveier</h4>
+        <ul>
+          <li><a href="#om-oss">Om oss</a></li>
+          <li><a href="#avdelinger">Avdelinger</a></li>
+          <li><a href="#meny">Meny</a></li>
+          <li><a href="#arrangementer">Arrangementer</a></li>
+          <li><a href="#ledige-stillinger">Ledige stillinger</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:post@potetbua24.no">post@potetbua24.no</a></li>
+          <li><a href="https://www.facebook.com/Potetbua" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/potetbuaaholmestrand/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@potetmannen98" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="personvern.html">Personvern</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Potetbua</span>
+      <span>Nettside levert av <a href="https://dmarketing.no" target="_blank" rel="noopener">Dietrichs Marketing</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="cookie-revisit" id="cookieRevisit" aria-label="Cookie-innstillinger">🍪</button>
+
+<div class="cookie-overlay" id="cookieOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="cookie-modal">
+    <div class="cookie-tabs">
+      <button class="cookie-tab active" data-panel="cookiePanelConsent">Samtykke</button>
+      <button class="cookie-tab" data-panel="cookiePanelDetails">Detaljer</button>
+      <button class="cookie-tab" data-panel="cookiePanelAbout">Om</button>
+    </div>
+
+    <div class="cookie-panel active" id="cookiePanelConsent">
+      <h3>Denne nettsiden anvender cookies</h3>
+      <p>Vi bruker informasjonskapsler for å gi innhold og annonser et personlig preg, for å levere sosiale mediefunksjoner og for å analysere trafikken vår. Vi deler dessuten informasjon om hvordan du bruker nettstedet vårt, med partnerne våre innen sosiale medier, annonsering og analysearbeid, som kan kombinere den med annen informasjon du har gjort tilgjengelig for dem, eller som de har samlet inn gjennom din bruk av tjenestene deres.</p>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Nødvendig</b>
+          <label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label>
+        </div>
+        <p>Nødvendige cookies bidrar til å gjøre en nettside brukbar ved å aktivere grunnleggende funksjoner som sidenavigasjon og tilgang til sikre områder av nettsiden.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Egenskaper</b>
+          <label class="switch"><input type="checkbox" id="consentPreferences"><span class="switch-track"></span></label>
+        </div>
+        <p>Preferanse-cookies gjør det mulig for nettsiden å huske informasjon som endrer hvordan den oppfører seg eller ser ut.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Statistikk</b>
+          <label class="switch"><input type="checkbox" id="consentStatistics"><span class="switch-track"></span></label>
+        </div>
+        <p>Statistikk-cookies hjelper oss å forstå hvordan besøkende samhandler med nettsiden, ved å samle inn og rapportere informasjon anonymt.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Markedsføring</b>
+          <label class="switch"><input type="checkbox" id="consentMarketing"><span class="switch-track"></span></label>
+        </div>
+        <p>Markedsføringscookies brukes til å spore besøkende på tvers av nettsteder, for å vise annonser som er relevante og engasjerende for den enkelte bruker.</p>
+      </div>
+    </div>
+
+    <div class="cookie-panel" id="cookiePanelDetails">
+      <h3>Detaljer</h3>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Nødvendig (4)</b></div>
+        <p>Cookiebot (CookieConsent), api2.hcaptcha.com (__cflb), hcaptcha.com/site-assets.cdnmns.com (__cf_bm). Brukes til samtykkelagring og til å skille mennesker fra roboter i skjema.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Egenskaper (0)</b></div>
+        <p>Vi bruker ikke denne typen cookies.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Statistikk (3)</b></div>
+        <p>public.powrcdn.com (ahoy_unique, ahoy_visit, ahoy_visitor). Anonym intern trafikkstatistikk.</p>
+      </div>
+      <div class="cookie-cat">
+        <div class="cookie-cat-head"><b>Markedsføring (7)</b></div>
+        <p>Google (_ga, _ga_#) og YouTube (VISITOR_INFO1_LIVE, YSC med flere) ved innebygd video.</p>
+      </div>
+    </div>
+
+    <div class="cookie-panel" id="cookiePanelAbout">
+      <h3>Om cookies</h3>
+      <p>Cookies er små tekstfiler som nettsteder kan bruke for å gjøre en brukers opplevelse mer effektiv. Loven sier at vi kan lagre cookies på din enhet hvis de er strengt nødvendige for at denne siden skal fungere. For alle andre typer cookies trenger vi ditt samtykke, som du kan endre når som helst via knappen nederst til venstre på siden.</p>
+    </div>
+
+    <div class="cookie-actions">
+      <button class="btn-cookie ghost" id="cookieReject">Ikke tillat</button>
+      <button class="btn-cookie ghost" id="cookieSelected">Tillat utvalg</button>
+      <button class="btn-cookie ghost" id="cookieCustomize">Tilpass</button>
+      <button class="btn-cookie" id="cookieAll">Tillat alle</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
